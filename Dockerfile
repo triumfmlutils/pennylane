@@ -1,5 +1,5 @@
 
-FROM triumfmlutils/baseml:v0.6
+FROM triumfmlutils/baseml:v2.0.6
 
 RUN python -m pip install pennylane \
   && python -m pip install pillow \
